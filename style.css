@@ -1,6 +1,22 @@
 .container{
     margin-bottom: 100px;
 }
+.carousel{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to right, rgb(226, 156, 26), rgb(233, 196, 128));
+    width: 36px;   
+}
+.carousel-indicators li{
+    border: none;
+    height: 10px;
+    width: 38px;
+    border-radius: 14px;
+    opacity: 1;
+}
 h1{
     color:black;
 }
@@ -28,9 +44,21 @@ button{
 h4{
     color: orange;
 }
-#underline{
+
+hr{
+    background-color: orange;
+    height: 8px;
+    width: 120px;
+    border-radius: 80px;
+}
+.bag, .perfume, .shoe{
+    box-shadow: 5px 5px 10px grey;
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: orange;
-    text-decoration-style: double;
+}
+.bag{
+    border-radius:0 0 0 15px ;
+}.perfume{
+    border-radius:0 0 15px 0 ;
+}.shoe{
+    border-radius:0 0 15px 0 ;
 }
